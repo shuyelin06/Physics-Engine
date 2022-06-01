@@ -1,0 +1,17 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/c/Users/shuye/Documents/GitHub/Physics-Engine'
+ 
+g++ -Wall -g -I"/c/Users/shuye/Documents/GitHub/Physics-Engine\include" -c src/core/Main.cpp -o bin/obj/Main.o 
+ 
+g++ -Wall -g -I"/c/Users/shuye/Documents/GitHub/Physics-Engine\include" -c src/core/Simulator.cpp -o bin/obj/Simulator.o 
+ 
+g++ -Wall -g -I"/c/Users/shuye/Documents/GitHub/Physics-Engine\include" -c src/geometry/Polygon.cpp -o bin/obj/Polygon.o 
+ 
+g++ -Wall -g -I"/c/Users/shuye/Documents/GitHub/Physics-Engine\include" -c src/geometry/Vector.cpp -o bin/obj/Vector.o 
+ 
+g++ -Wall -g -I"/c/Users/shuye/Documents/GitHub/Physics-Engine\include" -c src/physics/PhysicsObject.cpp -o bin/obj/PhysicsObject.o 
+ 
+g++ -Wall -g -I"/c/Users/shuye/Documents/GitHub/Physics-Engine\include" -c src/rendering/Renderer.cpp -o bin/obj/Renderer.o 
+g++ -Wall -g -L"/c/Users/shuye/Documents/GitHub/Physics-Engine\libs\SFML-2.5.1" -o ./bin/exe/Main.exe ./bin/obj/Main.o ./bin/obj/Simulator.o ./bin/obj/Polygon.o ./bin/obj/Vector.o ./bin/obj/PhysicsObject.o ./bin/obj/Renderer.o -lsfml-main -lsfml-graphics -lsfml-window -lsfml-system
+make: Leaving directory '/c/Users/shuye/Documents/GitHub/Physics-Engine'
+ 

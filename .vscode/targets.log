@@ -1,0 +1,385 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-msys
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+ 
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Wed Jun  1 14:32:38 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+ 
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'makefile', line 19)
+OBJ := ./bin/obj
+# environment
+LC_ALL = C
+# makefile (from 'makefile', line 18)
+SRC := ./src
+# environment
+USERPROFILE = C:\Users\shuye
+# environment
+LOCALAPPDATA = C:\Users\shuye\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-1e88921c-6c4e-4b71-9604-264f372439b7-sock
+# environment
+VSCODE_CWD = C:\Users\shuye\AppData\Local\Programs\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_24760_VUTJBCPHWCRVEWYX
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\shuye\OneDrive - Baltimore County Public Schools
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\shuye\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /c/Users/shuye/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\shuye\OneDrive - Baltimore County Public Schools
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;
+# makefile
+CURDIR := /c/Users/shuye/Documents/GitHub/Physics-Engine
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+!C: = c:\Users\shuye\Documents\GitHub\Physics-Engine
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 24760
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+__PSLOCKDOWNPOLICY = 0
+# automatic
+*F = $(notdir $*)
+# makefile (from 'makefile', line 28)
+Objects = $(OBJ)/Main.o $(OBJ)/Simulator.o $(OBJ)/Polygon.o $(OBJ)/Vector.o $(OBJ)/PhysicsObject.o $(OBJ)/Renderer.o
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'makefile', line 15)
+LIB_FILES := -lsfml-main -lsfml-graphics -lsfml-window -lsfml-system
+# makefile (from 'makefile', line 11)
+INCLUDE := /c/Users/shuye/Documents/GitHub/Physics-Engine\include
+# environment
+ONEDRIVECONSUMER = C:\Users\shuye\OneDrive
+# default
+MAKE_HOST := x86_64-pc-msys
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\shuye
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# makefile (from 'makefile', line 8)
+WORKING_DIRECTORY := /c/Users/shuye/Documents/GitHub/Physics-Engine
+ 
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files/Git/cmd:/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mingw64/bin:/usr/bin:/c/Program Files/Java/jdk-16.0.2/bin:/c/Users/shuye/AppData/Local/Microsoft/WindowsApps:/c/Users/shuye/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/shuye/AppData/Local/GitHubDesktop/bin:/c/ProgramData/shuye/GitHubDesktop/bin:/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.2.3/bin
+# environment
+COMPUTERNAME = LINLAPTOP
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\LINLAPTOP
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = shuye
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'makefile', line 13)
+LIB_PATH := -L"/c/Users/shuye/Documents/GitHub/Physics-Engine\libs\SFML-2.5.1"
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = LINLAPTOP
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from 'makefile', line 20)
+EXE := ./bin/exe
+# makefile
+.DEFAULT_GOAL := /Main.exe
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = LINLAPTOP
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\shuye\AppData\Roaming
+# makefile (from 'makefile', line 5)
+CFLAGS := -Wall -g
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/shuye
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /c/Users/shuye/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\f579918c8ddce9648451007e7c041689-1.67.2-main-sock
+# environment
+TERM = xterm-256color
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# makefile (from 'makefile', line 23)
+compile-command = $(CC) $(CFLAGS) -I"$(INCLUDE)" -c $(<) -o $(@) 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+PROCESSOR_REVISION = 9e0d
+# makefile (from 'makefile', line 3)
+CC := g++
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+# variable set hash-table stats:
+ 
+# Load=112/1024=11%, Rehash=0, Collisions=19/160=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src/physics (device 4009174069, inode 9851624185216958): No files, no impossibilities so far.
+# . (device 4009174069, inode 23362423067079603): 10 files, no impossibilities.
+# src/core (device 4009174069, inode 12666373952280703): No files, no impossibilities so far.
+# src/rendering (device 4009174069, inode 18295873486299761): No files, no impossibilities so far.
+# src/geometry (device 4009174069, inode 21392098230044051): No files, no impossibilities so far.
+
+# 10 files, no impossibilities in 5 directories.
+
+# Implicit Rules
+
+bin/obj/%.o: src/core/%.cpp
+#  recipe to execute (from 'makefile', line 36):
+	$(compile-command)
+
+bin/obj/%.o: src/geometry/%.cpp
+#  recipe to execute (from 'makefile', line 40):
+	$(compile-command)
+
+bin/obj/%.o: src/physics/%.cpp
+#  recipe to execute (from 'makefile', line 44):
+	$(compile-command)
+
+bin/obj/%.o: src/rendering/%.cpp
+#  recipe to execute (from 'makefile', line 48):
+	$(compile-command)
+
+# 4 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+bin/obj/PhysicsObject.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 53):
+	rm $(OBJ)/*.o
+	rm $(EXE)/Main.exe
+
+# Not a target:
+bin/obj/Polygon.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+run:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 56):
+	$(EXE)/Main.exe
+
+# Not a target:
+bin/obj/Renderer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+bin/obj/Vector.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 23:24:14.5230016
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+bin/obj/Simulator.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/obj/Main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean run
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Main.exe: bin/obj/Main.o bin/obj/Simulator.o bin/obj/Polygon.o bin/obj/Vector.o bin/obj/PhysicsObject.o bin/obj/Renderer.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 32):
+	$(CC) $(CFLAGS) $(LIB_PATH) -o $(EXE)/Main.exe $(Objects) $(LIB_FILES)
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/34=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+ 
+# strcache buffers: 1 (0) / strings = 33 / storage = 366 B / avg = 11 B
+# current buf: size = 8162 B / used = 366 B / count = 33 / avg = 11 B
+
+# strcache performance: lookups = 46 / hit rate = 28%
+# hash-table stats:
+# Load=33/8192=0%, Rehash=0, Collisions=0/46=0%
+# Finished Make data base on Wed Jun  1 14:32:38 2022
+
+ 
